@@ -1,0 +1,116 @@
+# ===================================================================
+# Comprehensive .gitignore Blueprint for Python Data Science Projects
+# ===================================================================
+# Created by Gemini for Sachin Kanchan
+# Last Updated: 2025-08-07
+
+
+# ========================
+# 1. Secrets & Credentials (MOST IMPORTANT)
+# ========================
+# NEVER commit secret keys, passwords, or credentials.
+# Use environment variables for this. Store them in a .env file.
+.env
+.env.*
+*.env
+
+# ========================
+# 2. Python Virtual Environments
+# ========================
+# These are specific to your machine and can be very large.
+# Always recreate them from a requirements.txt file.
+.venv/
+venv/
+env/
+.env/
+
+# ========================
+# 3. Python Byte-compiled / Optimized Files
+# ========================
+# These are temporary files Python creates to run your code faster.
+# They are generated automatically and don't need to be tracked.
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ========================
+# 4. IDE & Editor Configuration
+# ========================
+# These files store your personal editor settings and are not
+# relevant to the project code itself.
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ========================
+# 5. macOS & Windows System Files
+# ========================
+# OS-specific metadata and temporary files.
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+.Trashes
+.Spotlight-V100
+Thumbs.db
+
+# ========================
+# 6. Build, Distribution & Packaging
+# ========================
+# Artifacts created when you build or package your project.
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ========================
+# 7. Jupyter Notebook Checkpoints
+# ========================
+# Jupyter creates checkpoints for recovery; they don't need to be tracked.
+.ipynb_checkpoints
+
+# ========================
+# 8. Log, Report & Output Files
+# ========================
+# Generated output files that are not part of the source code.
+*.log
+*.out
+*.html
+
+# ========================
+# 9. Large Data Files (!!! IMPORTANT !!!)
+# ========================
+# Git is designed for code, not large data files. Committing large datasets
+# will make your repository slow and bloated.
+# Instead, include a link to the data source in your README.md.
+#
+# ** UNCOMMENT THE LINE BELOW FOR MOST PROJECTS **
+# *.csv
+# *.json
+# *.xml
+# *.parquet
+# *.pkl
+# *.pickle
+# *.joblib
+# *.h5
+
+# ========================
+# 10. Testing & Coverage Reports
+# ========================
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
