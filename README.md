@@ -54,31 +54,31 @@ The analysis follows a structured data science workflow, from data preparation t
 
 The dataset is highly imbalanced, with only 8.1% of clients having payment difficulties. This is a critical consideration for any future predictive modeling.
 
-![Target Variable Imbalance](visualizations/TARGET%20Variable%20Imbalance.png)
+![Target Variable Imbalance](visualizations/target-variable-imbalance.png)
 
 ### The Role of Education and Age
 
 Default rates are strongly correlated with both education level and age. Younger applicants with lower education levels represent the highest-risk segment.
 
-![Default Rates by Education and Age](visualizations/Default%20Rates%20Analysis%20Across%20Education%20Types%20and%20Age%20Groups.png)
+![Default Rates by Education and Age](visualizations/default-rates-analysis.png)
 
 ### Income Type vs. Credit Amount and Default Rate
 
 The relationship between credit amount and default risk is non-linear and varies significantly by income type. Businessmen, despite having the highest average credit amounts, have a near-zero default rate, while unemployed applicants have a very high default rate with lower credit amounts.
 
-![Relationship Between Income, Credit, and Default Rate](visualizations/Relationship%20Between%20Income%20Type,%20Credit%20Amount,%20and%20Default%20Rate.png)
+![Relationship Between Income, Credit, and Default Rate](visualizations/relationship-incometype-creditamount-defaultrate.png)
 
 ### Gender and Income Disparities
 
 Across all education levels, a consistent gender pay gap is visible, which can influence borrowing capacity and financial stability.
 
-![Gender Income Disparity by Education](visualizations/Gender%20Income%20Disparity%20Across%20Education%20Levels.png)
+![Gender Income Disparity by Education](visualizations/gender-income-disparity.png)
 
 ### Repayment Difficulty by Loan Purpose
 
 Analysis shows that non-defaulters are often approved for higher credit amounts than defaulters. However, certain loan purposes, like "Buying a holiday home/land" and "Business development," are associated with higher credit amounts and require careful risk assessment.
 
-![Repayment Difficulty by Loan Purpose](visualizations/Repayment%20Difficulty%20in%20Current%20and%20Previous%20Credit%20Amounts%20across%20Cash%20Loan%20Purpose.png)
+![Repayment Difficulty by Loan Purpose](visualizations/repayment-difficulty-current-and-previous.png)
 
 ---
 
